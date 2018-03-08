@@ -7,7 +7,7 @@ gulp.task('clean', function() {
 })
 
 gulp.task('assets', function() {
-	return gulp.src(['./assets/**/*'])
+	return gulp.src(['./src/assets/**/*'])
 		.pipe(gulp.dest('./product/assets/'))
 })
 
