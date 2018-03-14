@@ -20,6 +20,10 @@ Vue.use(Submenu)
 Vue.use(MenuItem)
 
 
+import { VueHammer } from './directive/hammer'
+Vue.use(VueHammer)
+
+
 Vue.use(VueRouter)
 export const router = new VueRouter({
 	routes: routes,

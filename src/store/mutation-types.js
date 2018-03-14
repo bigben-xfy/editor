@@ -7,6 +7,10 @@
 export const RESET_STATES = 'RESET_STATES'
 
 
+/*editor*/
+export const SET_SHAPE_DATA = 'SET_SHAPE_DATA'
+
+
 
 
 
